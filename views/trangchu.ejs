@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <script src="lib/react.js"></script>
+    <script src="lib/react-dom.js"></script>
+    <script src="lib/browser.min.js"></script>
+  </head>
+  <body>
+    <div id ="root"> </div>
+    <p id="runat"></p>
+    <p id = "abc"></p>
+    <script type="text/babel">
+      ReactDOM.render(<h1> Hello </h1> , document.getElementById('root'));
+      ReactDOM.render(<h1> world </h1> , document.getElementById('runat'));
+      ReactDOM.render(<h1> Hiệp óc chó </h1> , document.getElementById('abc'));
+    </script>
+  </body>
+</html>
